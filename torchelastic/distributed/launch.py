@@ -232,7 +232,7 @@ def parse_args(args):
     """
     Helper function parsing the command line options.
     """
-
+    print("###############Using custom torchelastic###############")
     parser = ArgumentParser(description="torchelastic elastic training launcher")
 
     # Arguments for the launch helper
