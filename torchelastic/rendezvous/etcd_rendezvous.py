@@ -58,12 +58,12 @@ CONST_DEFAULT_OVERALL_TIMEOUT = 600
 CONST_DEFAULT_LAST_CALL_TIMEOUT = 30
 
 # Various constants used internally in EtcdRendezvous
-CONST_ETCD_SETUP_TTL = 3
+CONST_ETCD_SETUP_TTL = 1
 CONST_ETCD_FROZEN_TTL = 10
 CONST_ETCD_JOINABLE_EPHEMERAL_TTL = 10
 
 # Ephemeral node TTL for worker's keep-alive key:
-CONST_WORKER_KEEPALIVE_TTL = 8
+CONST_WORKER_KEEPALIVE_TTL = 10
 
 # TTL for the ephemeral run_id-specific directory. All rendezvous state data
 # for a specific run_id (job instance) is contained within directory.
