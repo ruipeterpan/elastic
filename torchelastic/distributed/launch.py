@@ -507,4 +507,5 @@ if __name__ == "__main__":
         level=logging.INFO, format="[%(levelname)s] %(asctime)s %(module)s: %(message)s"
     )
     log.info(f"Running torchelastic.distributed.launch with args: {sys.argv}")
+    log.info("torchelastic.distributed.launch has pid", os.getpid())
     main()
