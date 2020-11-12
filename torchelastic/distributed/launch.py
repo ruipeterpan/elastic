@@ -503,6 +503,8 @@ def main(args=None):
 
 
 if __name__ == "__main__":
+    os.environ["BYTEPS_LOCAL_RANK"] = str(0)
+    os.environ["BYTEPS_LOCAL_SIZE"] = str(1)
     logging.basicConfig(
         level=logging.INFO, format="[%(levelname)s] %(asctime)s %(module)s: %(message)s"
     )
